@@ -1,7 +1,7 @@
 /**
  * Jennifer Vaughn
  * 11/10/2022
- * This program counts the number of words in text or a .txt file that the user inputs.
+ * This program counts the number of words in a body of text or a .txt file that the user inputs.
  */
 
 
@@ -24,7 +24,6 @@ public class wordCounter extends javax.swing.JFrame {
 
  
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -133,10 +132,10 @@ public class wordCounter extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
 
-    private void countButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_countButtonActionPerformed
+    private void countButtonActionPerformed(java.awt.event.ActionEvent evt) {
         int count = 0;
         
         String text = textArea.getText();   //gets text from the text area
@@ -172,7 +171,7 @@ public class wordCounter extends javax.swing.JFrame {
             }
             JOptionPane.showMessageDialog(this, "You entered " + count + " words.");
         }
-    }//GEN-LAST:event_countButtonActionPerformed
+    }
 
     
    
@@ -184,7 +183,6 @@ public class wordCounter extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton countButton;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -193,5 +191,4 @@ public class wordCounter extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea textArea;
-    // End of variables declaration//GEN-END:variables
 }
