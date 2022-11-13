@@ -1,0 +1,5 @@
+Hello!
+
+This is a test file for my Word Counter.
+
+Word Counter should print that there 19 words here.
